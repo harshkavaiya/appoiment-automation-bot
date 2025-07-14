@@ -30,5 +30,5 @@ A simple **Node.js Telegram Bot** to book, view, and cancel clinic appointments 
 
 1️⃣ **Clone the Repo**
 ```bash
-git clone https://github.com/yourusername/yourrepo.git
+git clone https://github.com/harshkavaiya/appoiment-automation-bot
 cd yourrepo
