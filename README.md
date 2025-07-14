@@ -1,30 +1,34 @@
-# 🩺 Telegram Clinic Appointment Bot
+# 🏥 Telegram Clinic Appointment Bot
 
-A simple and efficient **Node.js Telegram Bot** for booking, canceling, and managing doctor appointments.  
-Built with **Express**, **Mongoose**, and **node-telegram-bot-api**.
-
----
-
-## 🚀 Features
-
-✅ Book appointments with doctors  
-✅ Choose available slots  
-✅ Save phone number (or skip)  
-✅ Unique short appointment IDs  
-✅ Cancel appointments with ID  
-✅ View all your bookings  
-✅ Contact clinic easily
+A simple **Node.js Telegram Bot** to book, view, and cancel clinic appointments directly through Telegram.
 
 ---
 
-## 📌 Tech Stack
+## 📌 Features
+
+✅ Book an appointment with a doctor  
+✅ Select slot & date (only same-day booking)  
+✅ Provide or skip mobile number while booking  
+✅ Get unique short Appointment ID (e.g. `APPT12345`)  
+✅ View all your appointments with details  
+✅ Cancel any appointment by ID  
+✅ User-friendly inline keyboard menus  
+✅ No admin panel needed — fully Telegram-based
+
+---
+
+## ⚙️ Tech Stack
 
 - **Node.js**
-- **Express**
-- **MongoDB** (with Mongoose)
+- **Express.js**
+- **MongoDB** (with **Mongoose**)
 - **node-telegram-bot-api**
 
 ---
 
-## 📁 Project Structure
+## 🚀 How to Run Locally
 
+1️⃣ **Clone the Repo**
+```bash
+git clone https://github.com/yourusername/yourrepo.git
+cd yourrepo
